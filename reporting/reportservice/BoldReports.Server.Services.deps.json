@@ -6,20 +6,19 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "BoldReports.Server.Services/6.1.45": {
+      "BoldReports.Server.Services/6.2.25": {
         "dependencies": {
-          "Azure.Storage.Blobs": "12.15.0",
-          "Bold.Licensing": "6.1.45",
-          "BoldReports.Base.Logger": "6.1.45",
-          "BoldReports.CRI.Barcode": "6.1.45",
-          "BoldReports.CRI.PredictiveAnalytics": "6.1.45",
-          "BoldReports.Data.Csv": "6.1.45",
-          "BoldReports.Data.ElasticSearch": "6.1.45",
-          "BoldReports.Data.Excel": "6.1.45",
-          "BoldReports.Data.SSAS": "6.1.45",
-          "BoldReports.Data.Snowflake": "6.1.45",
-          "BoldReports.Data.WebData": "6.1.45",
-          "BoldReports.Net.Core": "6.1.45",
+          "Azure.Storage.Blobs": "12.20.0",
+          "Bold.Licensing": "6.2.25",
+          "BoldReports.Base.Logger": "6.2.25",
+          "BoldReports.CRI.Barcode": "6.2.25",
+          "BoldReports.CRI.PredictiveAnalytics": "6.2.25",
+          "BoldReports.Data.Csv": "6.2.25",
+          "BoldReports.Data.ElasticSearch": "6.2.25",
+          "BoldReports.Data.Excel": "6.2.25",
+          "BoldReports.Data.SSAS": "6.2.25",
+          "BoldReports.Data.WebData": "6.2.25",
+          "BoldReports.Net.Core": "6.2.25",
           "Exceptionless": "4.5.0",
           "Exceptionless.Log4net": "4.5.0",
           "Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64": "19.22.0.1",
@@ -39,42 +38,16 @@
           "System.Configuration.ConfigurationManager": "6.0.1",
           "System.Runtime": "4.3.1",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "log4net": "2.0.12"
+          "log4net": "2.0.17"
         },
         "runtime": {
           "BoldReports.Server.Services.dll": {}
         }
       },
-      "Apache.Arrow/12.0.1": {
-        "runtime": {
-          "lib/net6.0/Apache.Arrow.dll": {
-            "assemblyVersion": "12.0.1.0",
-            "fileVersion": "12.0.1.0"
-          }
-        }
-      },
-      "AWSSDK.Core/3.7.0.4": {
-        "runtime": {
-          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.0.4"
-          }
-        }
-      },
-      "AWSSDK.S3/3.7.0.4": {
-        "dependencies": {
-          "AWSSDK.Core": "3.7.0.4"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.0.4"
-          }
-        }
-      },
-      "Azure.Core/1.35.0": {
+      "Azure.Core/1.39.0": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "7.0.0",
+          "System.ClientModel": "1.0.0",
           "System.Diagnostics.DiagnosticSource": "6.0.1",
           "System.Memory.Data": "1.0.2",
           "System.Numerics.Vectors": "4.5.0",
@@ -84,14 +57,14 @@
         },
         "runtime": {
           "lib/net6.0/Azure.Core.dll": {
-            "assemblyVersion": "1.35.0.0",
-            "fileVersion": "1.3500.23.45706"
+            "assemblyVersion": "1.39.0.0",
+            "fileVersion": "1.3900.24.21804"
           }
         }
       },
       "Azure.Identity/1.10.3": {
         "dependencies": {
-          "Azure.Core": "1.35.0",
+          "Azure.Core": "1.39.0",
           "Microsoft.Identity.Client": "4.56.0",
           "Microsoft.Identity.Client.Extensions.Msal": "4.56.0",
           "System.Memory": "4.5.4",
@@ -106,27 +79,27 @@
           }
         }
       },
-      "Azure.Storage.Blobs/12.15.0": {
+      "Azure.Storage.Blobs/12.20.0": {
         "dependencies": {
-          "Azure.Storage.Common": "12.14.0",
+          "Azure.Storage.Common": "12.19.0",
           "System.Text.Json": "7.0.3"
         },
         "runtime": {
           "lib/net6.0/Azure.Storage.Blobs.dll": {
-            "assemblyVersion": "12.15.0.0",
-            "fileVersion": "12.1500.23.12106"
+            "assemblyVersion": "12.20.0.0",
+            "fileVersion": "12.2000.24.26306"
           }
         }
       },
-      "Azure.Storage.Common/12.14.0": {
+      "Azure.Storage.Common/12.19.0": {
         "dependencies": {
-          "Azure.Core": "1.35.0",
+          "Azure.Core": "1.39.0",
           "System.IO.Hashing": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Azure.Storage.Common.dll": {
-            "assemblyVersion": "12.14.0.0",
-            "fileVersion": "12.1400.23.12106"
+            "assemblyVersion": "12.19.0.0",
+            "fileVersion": "12.1900.24.26306"
           }
         }
       },
@@ -152,128 +125,117 @@
           }
         }
       },
-      "Bold.Data.Analytics.Base/6.1.45": {
+      "Bold.Data.Analytics.Base/6.2.25": {
         "runtime": {
           "lib/net6.0/Bold.Data.Analytics.Base.dll": {
-            "assemblyVersion": "6.1600.45.0",
-            "fileVersion": "6.1600.45.0"
+            "assemblyVersion": "6.2600.25.0",
+            "fileVersion": "6.2600.25.0"
           }
         }
       },
-      "Bold.Licensing/6.1.45": {
+      "Bold.Licensing/6.2.25": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "lib/net6.0/Bold.Licensing.dll": {
-            "assemblyVersion": "6.1.45.0",
-            "fileVersion": "6.1.45.0"
+            "assemblyVersion": "6.2.25.0",
+            "fileVersion": "6.2.25.0"
           }
         }
       },
-      "BoldReports.Base.Logger/6.1.45": {
+      "BoldReports.Base.Logger/6.2.25": {
         "dependencies": {
-          "log4net": "2.0.12"
+          "log4net": "2.0.17"
         },
         "runtime": {
           "lib/net6.0/BoldReports.Base.Logger.dll": {
-            "assemblyVersion": "6.1600.45.0",
-            "fileVersion": "6.1600.45.0"
+            "assemblyVersion": "6.2600.25.0",
+            "fileVersion": "6.2600.25.0"
           }
         }
       },
-      "BoldReports.CRI.Barcode/6.1.45": {
+      "BoldReports.CRI.Barcode/6.2.25": {
         "dependencies": {
           "BarcodeLib": "3.1.0",
-          "Syncfusion.Pdf.Imaging.Net.Core": "22.1.34"
+          "Syncfusion.Pdf.Imaging.Net.Core": "26.1.35"
         },
         "runtime": {
           "lib/net6.0/BoldReports.CRI.Barcode.dll": {
-            "assemblyVersion": "6.1600.45.0",
-            "fileVersion": "6.1600.45.0"
+            "assemblyVersion": "6.2600.25.0",
+            "fileVersion": "6.2600.25.0"
           }
         }
       },
-      "BoldReports.CRI.PredictiveAnalytics/6.1.45": {
+      "BoldReports.CRI.PredictiveAnalytics/6.2.25": {
         "dependencies": {
-          "Bold.Data.Analytics.Base": "6.1.45"
+          "Bold.Data.Analytics.Base": "6.2.25"
         },
         "runtime": {
           "lib/net6.0/BoldReports.CRI.PredictiveAnalytics.dll": {
-            "assemblyVersion": "6.1600.45.0",
-            "fileVersion": "6.1600.45.0"
+            "assemblyVersion": "6.2600.25.0",
+            "fileVersion": "6.2600.25.0"
           }
         }
       },
-      "BoldReports.Data.Csv/6.1.45": {
+      "BoldReports.Data.Csv/6.2.25": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "lib/net6.0/BoldReports.Data.Csv.dll": {
-            "assemblyVersion": "6.1600.45.0",
-            "fileVersion": "6.1600.45.0"
+            "assemblyVersion": "6.2600.25.0",
+            "fileVersion": "6.2600.25.0"
           }
         }
       },
-      "BoldReports.Data.ElasticSearch/6.1.45": {
+      "BoldReports.Data.ElasticSearch/6.2.25": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "lib/net6.0/BoldReports.Data.ElasticSearch.dll": {
-            "assemblyVersion": "6.1600.45.0",
-            "fileVersion": "6.1600.45.0"
+            "assemblyVersion": "6.2600.25.0",
+            "fileVersion": "6.2600.25.0"
           }
         }
       },
-      "BoldReports.Data.Excel/6.1.45": {
+      "BoldReports.Data.Excel/6.2.25": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "lib/net6.0/BoldReports.Data.Excel.dll": {
-            "assemblyVersion": "6.1600.45.0",
-            "fileVersion": "6.1600.45.0"
+            "assemblyVersion": "6.2600.25.0",
+            "fileVersion": "6.2600.25.0"
           }
         }
       },
-      "BoldReports.Data.Snowflake/6.1.45": {
-        "dependencies": {
-          "Snowflake.Data": "2.1.5"
-        },
-        "runtime": {
-          "lib/net6.0/BoldReports.Data.Snowflake.dll": {
-            "assemblyVersion": "6.1600.45.0",
-            "fileVersion": "6.1600.45.0"
-          }
-        }
-      },
-      "BoldReports.Data.SSAS/6.1.45": {
+      "BoldReports.Data.SSAS/6.2.25": {
         "dependencies": {
           "Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64": "19.22.0.1"
         },
         "runtime": {
           "lib/net6.0/BoldReports.Data.SSAS.dll": {
-            "assemblyVersion": "6.1600.45.0",
-            "fileVersion": "6.1600.45.0"
+            "assemblyVersion": "6.2600.25.0",
+            "fileVersion": "6.2600.25.0"
           }
         }
       },
-      "BoldReports.Data.WebData/6.1.45": {
+      "BoldReports.Data.WebData/6.2.25": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "lib/net6.0/BoldReports.Data.WebData.dll": {
-            "assemblyVersion": "6.1600.45.0",
-            "fileVersion": "6.1600.45.0"
+            "assemblyVersion": "6.2600.25.0",
+            "fileVersion": "6.2600.25.0"
           }
         }
       },
-      "BoldReports.Net.Core/6.1.45": {
+      "BoldReports.Net.Core/6.2.25": {
         "dependencies": {
-          "Bold.Licensing": "6.1.45",
+          "Bold.Licensing": "6.2.25",
           "Microsoft.CodeAnalysis.VisualBasic": "4.8.0",
           "Microsoft.Data.SqlClient": "5.1.5",
           "Microsoft.Windows.Compatibility": "6.0.6",
@@ -282,13 +244,13 @@
           "SkiaSharp": "2.88.6",
           "SkiaSharp.NativeAssets.Linux": "2.88.6",
           "SkiaSharp.Svg": "1.60.0",
-          "Syncfusion.Compression.Net.Core": "22.1.34",
-          "Syncfusion.DocIO.Net.Core": "22.1.34",
-          "Syncfusion.OfficeChart.Net.Core": "22.1.34",
-          "Syncfusion.Pdf.Imaging.Net.Core": "22.1.34",
-          "Syncfusion.Pdf.Net.Core": "22.1.34",
-          "Syncfusion.Presentation.Net.Core": "22.1.34",
-          "Syncfusion.XlsIO.Net.Core": "22.1.34",
+          "Syncfusion.Compression.Net.Core": "26.1.35",
+          "Syncfusion.DocIO.Net.Core": "26.1.35",
+          "Syncfusion.OfficeChart.Net.Core": "26.1.35",
+          "Syncfusion.Pdf.Imaging.Net.Core": "26.1.35",
+          "Syncfusion.Pdf.Net.Core": "26.1.35",
+          "Syncfusion.Presentation.Net.Core": "26.1.35",
+          "Syncfusion.XlsIO.Net.Core": "26.1.35",
           "System.CodeDom": "6.0.0",
           "System.Configuration.ConfigurationManager": "6.0.1",
           "System.Data.Odbc": "6.0.1",
@@ -297,8 +259,8 @@
         },
         "runtime": {
           "lib/net6.0/BoldReports.Web.dll": {
-            "assemblyVersion": "6.1600.45.0",
-            "fileVersion": "6.1600.45.0"
+            "assemblyVersion": "6.2600.25.0",
+            "fileVersion": "6.2600.25.0"
           }
         }
       },
@@ -319,7 +281,7 @@
       "Exceptionless.Log4net/4.5.0": {
         "dependencies": {
           "Exceptionless": "4.5.0",
-          "log4net": "2.0.12"
+          "log4net": "2.0.17"
         },
         "runtime": {
           "lib/netstandard2.0/Exceptionless.Log4net.dll": {
@@ -328,102 +290,15 @@
           }
         }
       },
-      "Google.Api.Gax/4.4.0": {
-        "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "7.0.0",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Google.Api.Gax.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.4.0.0"
-          }
-        }
-      },
-      "Google.Api.Gax.Rest/4.4.0": {
-        "dependencies": {
-          "Google.Api.Gax": "4.4.0",
-          "Google.Apis.Auth": "1.60.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Google.Api.Gax.Rest.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.4.0.0"
-          }
-        }
-      },
-      "Google.Apis/1.60.0": {
-        "dependencies": {
-          "Google.Apis.Core": "1.60.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.dll": {
-            "assemblyVersion": "1.60.0.0",
-            "fileVersion": "1.60.0.0"
-          }
-        }
-      },
-      "Google.Apis.Auth/1.60.0": {
-        "dependencies": {
-          "Google.Apis": "1.60.0",
-          "Google.Apis.Core": "1.60.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
-            "assemblyVersion": "1.60.0.0",
-            "fileVersion": "1.60.0.0"
-          },
-          "lib/netstandard2.0/Google.Apis.Auth.dll": {
-            "assemblyVersion": "1.60.0.0",
-            "fileVersion": "1.60.0.0"
-          }
-        }
-      },
-      "Google.Apis.Core/1.60.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Core.dll": {
-            "assemblyVersion": "1.60.0.0",
-            "fileVersion": "1.60.0.0"
-          }
-        }
-      },
-      "Google.Apis.Storage.v1/1.60.0.2981": {
-        "dependencies": {
-          "Google.Apis": "1.60.0",
-          "Google.Apis.Auth": "1.60.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Google.Apis.Storage.v1.dll": {
-            "assemblyVersion": "1.60.0.2981",
-            "fileVersion": "1.60.0.2981"
-          }
-        }
-      },
-      "Google.Cloud.Storage.V1/4.6.0": {
-        "dependencies": {
-          "Google.Api.Gax.Rest": "4.4.0",
-          "Google.Apis.Storage.v1": "1.60.0.2981"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Google.Cloud.Storage.V1.dll": {
-            "assemblyVersion": "4.6.0.0",
-            "fileVersion": "4.6.0.0"
-          }
-        }
-      },
       "Humanizer.Core/2.14.1": {},
-      "log4net/2.0.12": {
+      "log4net/2.0.17": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "6.0.1"
         },
         "runtime": {
           "lib/netstandard2.0/log4net.dll": {
-            "assemblyVersion": "2.0.12.0",
-            "fileVersion": "2.0.12.0"
+            "assemblyVersion": "2.0.17.0",
+            "fileVersion": "2.0.17.0"
           }
         }
       },
@@ -635,7 +510,7 @@
       "Microsoft.ApplicationInsights.Log4NetAppender/2.22.0": {
         "dependencies": {
           "Microsoft.ApplicationInsights": "2.22.0",
-          "log4net": "2.0.12"
+          "log4net": "2.0.17"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.ApplicationInsights.Log4NetAppender.dll": {
@@ -723,7 +598,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "2.2.0"
         }
@@ -734,7 +609,7 @@
           "Microsoft.AspNetCore.Cryptography.Internal": "2.2.0",
           "Microsoft.AspNetCore.DataProtection.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "2.2.0",
           "Microsoft.Win32.Registry": "4.7.0",
@@ -1312,7 +1187,7 @@
       "Microsoft.Extensions.Caching.Memory/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "2.2.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0"
         }
       },
@@ -1350,10 +1225,10 @@
       },
       "Microsoft.Extensions.DependencyInjection/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {},
       "Microsoft.Extensions.DependencyModel/2.1.0": {
         "dependencies": {
           "Microsoft.DotNet.PlatformAbstractions": "2.1.0",
@@ -1389,14 +1264,14 @@
       "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
           "Microsoft.Extensions.FileProviders.Abstractions": "3.1.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
         }
       },
       "Microsoft.Extensions.Localization/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
           "Microsoft.Extensions.Localization.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "2.2.0"
@@ -1406,7 +1281,7 @@
       "Microsoft.Extensions.Logging/2.1.1": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "2.1.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "2.2.0"
         }
@@ -1427,7 +1302,7 @@
       "Microsoft.Extensions.ObjectPool/5.0.10": {},
       "Microsoft.Extensions.Options/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
           "Microsoft.Extensions.Primitives": "3.1.0",
           "System.ComponentModel.Annotations": "4.5.0"
         }
@@ -1447,7 +1322,7 @@
       "Microsoft.Extensions.Primitives/3.1.0": {},
       "Microsoft.Extensions.WebEncoders/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
           "System.Text.Encodings.Web": "7.0.0"
         }
@@ -1690,7 +1565,7 @@
           "System.Security.Cryptography.X509Certificates": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Text.Encoding.Extensions": "4.3.0",
-          "System.Text.RegularExpressions": "4.3.1",
+          "System.Text.RegularExpressions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
           "System.Threading.Timer": "4.3.0",
@@ -1715,14 +1590,6 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.1.20722"
-          }
-        }
-      },
-      "Portable.BouncyCastle/1.8.10": {
-        "runtime": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
-            "assemblyVersion": "1.8.10.0",
-            "fileVersion": "1.8.10.1"
           }
         }
       },
@@ -1946,26 +1813,6 @@
           }
         }
       },
-      "Snowflake.Data/2.1.5": {
-        "dependencies": {
-          "AWSSDK.S3": "3.7.0.4",
-          "Apache.Arrow": "12.0.1",
-          "Azure.Storage.Blobs": "12.15.0",
-          "Azure.Storage.Common": "12.14.0",
-          "Google.Cloud.Storage.V1": "4.6.0",
-          "Newtonsoft.Json": "13.0.3",
-          "Portable.BouncyCastle": "1.8.10",
-          "System.IdentityModel.Tokens.Jwt": "6.35.0",
-          "System.Text.RegularExpressions": "4.3.1",
-          "log4net": "2.0.12"
-        },
-        "runtime": {
-          "lib/net6.0/Snowflake.Data.dll": {
-            "assemblyVersion": "2.1.5.0",
-            "fileVersion": "2.1.5.0"
-          }
-        }
-      },
       "SSH.NET/2020.0.2": {
         "dependencies": {
           "SshNet.Security.Cryptography": "1.3.0"
@@ -1985,84 +1832,84 @@
           }
         }
       },
-      "Syncfusion.Compression.Net.Core/22.1.34": {
+      "Syncfusion.Compression.Net.Core/26.1.35": {
         "runtime": {
           "lib/net6.0/Syncfusion.Compression.Portable.dll": {
-            "assemblyVersion": "22.1.34.0",
-            "fileVersion": "22.1.34.0"
+            "assemblyVersion": "26.1.35.0",
+            "fileVersion": "26.1.35.0"
           }
         }
       },
-      "Syncfusion.DocIO.Net.Core/22.1.34": {
+      "Syncfusion.DocIO.Net.Core/26.1.35": {
         "dependencies": {
-          "Syncfusion.Compression.Net.Core": "22.1.34",
-          "Syncfusion.Licensing": "22.1.34",
-          "Syncfusion.OfficeChart.Net.Core": "22.1.34",
+          "Syncfusion.Compression.Net.Core": "26.1.35",
+          "Syncfusion.Licensing": "26.1.35",
+          "Syncfusion.OfficeChart.Net.Core": "26.1.35",
           "System.Text.Encoding.CodePages": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Syncfusion.DocIO.Portable.dll": {
-            "assemblyVersion": "22.1.34.0",
-            "fileVersion": "22.1.34.0"
+            "assemblyVersion": "26.1.35.0",
+            "fileVersion": "26.1.35.0"
           }
         }
       },
-      "Syncfusion.Licensing/22.1.34": {
+      "Syncfusion.Licensing/26.1.35": {
         "runtime": {
           "lib/net6.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "22.1.34.0",
-            "fileVersion": "22.1.34.0"
+            "assemblyVersion": "26.1.35.0",
+            "fileVersion": "26.1.35.0"
           }
         }
       },
-      "Syncfusion.OfficeChart.Net.Core/22.1.34": {
+      "Syncfusion.OfficeChart.Net.Core/26.1.35": {
         "dependencies": {
-          "Syncfusion.Compression.Net.Core": "22.1.34"
+          "Syncfusion.Compression.Net.Core": "26.1.35"
         },
         "runtime": {
           "lib/net6.0/Syncfusion.OfficeChart.Portable.dll": {
-            "assemblyVersion": "22.1.34.0",
-            "fileVersion": "22.1.34.0"
+            "assemblyVersion": "26.1.35.0",
+            "fileVersion": "26.1.35.0"
           }
         }
       },
-      "Syncfusion.Pdf.Imaging.Net.Core/22.1.34": {
+      "Syncfusion.Pdf.Imaging.Net.Core/26.1.35": {
         "dependencies": {
           "BitMiracle.LibTiff.NET": "2.4.649",
           "SkiaSharp": "2.88.6",
-          "Syncfusion.Compression.Net.Core": "22.1.34",
-          "Syncfusion.Pdf.Net.Core": "22.1.34"
+          "Syncfusion.Compression.Net.Core": "26.1.35",
+          "Syncfusion.Pdf.Net.Core": "26.1.35"
         },
         "runtime": {
           "lib/net6.0/Syncfusion.Pdf.Imaging.Portable.dll": {
-            "assemblyVersion": "22.1.34.0",
-            "fileVersion": "22.1.34.0"
+            "assemblyVersion": "26.1.35.0",
+            "fileVersion": "26.1.35.0"
           }
         }
       },
-      "Syncfusion.Pdf.Net.Core/22.1.34": {
+      "Syncfusion.Pdf.Net.Core/26.1.35": {
         "dependencies": {
-          "Syncfusion.Compression.Net.Core": "22.1.34",
-          "Syncfusion.Licensing": "22.1.34",
+          "Syncfusion.Compression.Net.Core": "26.1.35",
+          "Syncfusion.Licensing": "26.1.35",
           "System.Text.Encoding.CodePages": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Syncfusion.Pdf.Portable.dll": {
-            "assemblyVersion": "22.1.34.0",
-            "fileVersion": "22.1.34.0"
+            "assemblyVersion": "26.1.35.0",
+            "fileVersion": "26.1.35.0"
           }
         }
       },
-      "Syncfusion.Presentation.Net.Core/22.1.34": {
+      "Syncfusion.Presentation.Net.Core/26.1.35": {
         "dependencies": {
-          "Syncfusion.Compression.Net.Core": "22.1.34",
-          "Syncfusion.Licensing": "22.1.34",
-          "Syncfusion.OfficeChart.Net.Core": "22.1.34"
+          "Syncfusion.Compression.Net.Core": "26.1.35",
+          "Syncfusion.Licensing": "26.1.35",
+          "Syncfusion.OfficeChart.Net.Core": "26.1.35"
         },
         "runtime": {
           "lib/net6.0/Syncfusion.Presentation.Portable.dll": {
-            "assemblyVersion": "22.1.34.0",
-            "fileVersion": "22.1.34.0"
+            "assemblyVersion": "26.1.35.0",
+            "fileVersion": "26.1.35.0"
           }
         }
       },
@@ -2074,15 +1921,15 @@
           }
         }
       },
-      "Syncfusion.XlsIO.Net.Core/22.1.34": {
+      "Syncfusion.XlsIO.Net.Core/26.1.35": {
         "dependencies": {
-          "Syncfusion.Compression.Net.Core": "22.1.34",
-          "Syncfusion.Licensing": "22.1.34"
+          "Syncfusion.Compression.Net.Core": "26.1.35",
+          "Syncfusion.Licensing": "26.1.35"
         },
         "runtime": {
           "lib/net6.0/Syncfusion.XlsIO.Portable.dll": {
-            "assemblyVersion": "22.1.34.0",
-            "fileVersion": "22.1.34.0"
+            "assemblyVersion": "26.1.35.0",
+            "fileVersion": "26.1.35.0"
           }
         }
       },
@@ -2092,6 +1939,18 @@
         }
       },
       "System.Buffers/4.5.0": {},
+      "System.ClientModel/1.0.0": {
+        "dependencies": {
+          "System.Memory.Data": "1.0.2",
+          "System.Text.Json": "7.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/System.ClientModel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.24.5302"
+          }
+        }
+      },
       "System.CodeDom/6.0.0": {
         "runtime": {
           "lib/net6.0/System.CodeDom.dll": {
@@ -3281,7 +3140,7 @@
           }
         }
       },
-      "System.Text.RegularExpressions/4.3.1": {
+      "System.Text.RegularExpressions/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.1"
         }
@@ -3409,7 +3268,7 @@
           "System.Runtime.InteropServices": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Text.Encoding.Extensions": "4.3.0",
-          "System.Text.RegularExpressions": "4.3.1",
+          "System.Text.RegularExpressions": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
         }
@@ -3433,38 +3292,17 @@
     }
   },
   "libraries": {
-    "BoldReports.Server.Services/6.1.45": {
+    "BoldReports.Server.Services/6.2.25": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Apache.Arrow/12.0.1": {
+    "Azure.Core/1.39.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-B2BPorjH+kTz9PvoatFwqQf8k5TZuNoIp1dqbcGzkgfYNBgpuVpNn1XpisQCOd8l3vaz2HoQ/sMVdbBBwOKnPg==",
-      "path": "apache.arrow/12.0.1",
-      "hashPath": "apache.arrow.12.0.1.nupkg.sha512"
-    },
-    "AWSSDK.Core/3.7.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-V4bg471WLZ7vitDCv6zxGLz2sp89iTm3bCLpVCnIdC1dKOhP5QYQDe2gZnuMHFFJ1024Bd1IlPuKou412uYAlw==",
-      "path": "awssdk.core/3.7.0.4",
-      "hashPath": "awssdk.core.3.7.0.4.nupkg.sha512"
-    },
-    "AWSSDK.S3/3.7.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Ohb/mCMXB9M/1s+moGsdlGEYYbL9u9bQKKQY2280g4RyOB1o7RjjECZYHsnWk7DFMrB0qcpTC1qT9RoS5DPxrw==",
-      "path": "awssdk.s3/3.7.0.4",
-      "hashPath": "awssdk.s3.3.7.0.4.nupkg.sha512"
-    },
-    "Azure.Core/1.35.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-hENcx03Jyuqv05F4RBEPbxz29UrM3Nbhnr6Wl6NQpoU9BCIbL3XLentrxDCTrH54NLS11Exxi/o8MYgT/cnKFA==",
-      "path": "azure.core/1.35.0",
-      "hashPath": "azure.core.1.35.0.nupkg.sha512"
+      "sha512": "sha512-9vaV4ZICtVQp+2wjOKrIAjEjMzBkUohaBbKGqqcTW993MRfHA0N4L1BszQjWynS7lRvlYQLxaFK4wh9ewNm4HQ==",
+      "path": "azure.core/1.39.0",
+      "hashPath": "azure.core.1.39.0.nupkg.sha512"
     },
     "Azure.Identity/1.10.3": {
       "type": "package",
@@ -3473,19 +3311,19 @@
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
     },
-    "Azure.Storage.Blobs/12.15.0": {
+    "Azure.Storage.Blobs/12.20.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IclKNYNpJGtr8WY9284iJni9yMMoERscRb4Oxc+CF0U45mi749Dbpva1psc7u/R07fa+WgIupVIPczkfo2NQmA==",
-      "path": "azure.storage.blobs/12.15.0",
-      "hashPath": "azure.storage.blobs.12.15.0.nupkg.sha512"
+      "sha512": "sha512-96HBFceJCwfv9Kg51F4C+MVIRhbAPtX2KupRaZqpGJW1FSWmo4JjOhi1sl3ZpZfPAiixYgTxhewMxSc/yd47/Q==",
+      "path": "azure.storage.blobs/12.20.0",
+      "hashPath": "azure.storage.blobs.12.20.0.nupkg.sha512"
     },
-    "Azure.Storage.Common/12.14.0": {
+    "Azure.Storage.Common/12.19.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Fd6xg64hJy3NRBBcIijahJgUPyCv3qXaR61RqBnkTsDCywlVrdb8neulFJPd4smj2yvXogFdja0IteVKugr4nw==",
-      "path": "azure.storage.common/12.14.0",
-      "hashPath": "azure.storage.common.12.14.0.nupkg.sha512"
+      "sha512": "sha512-aKW5fK4ZSQb9VjENSDbsQoKCDSG6d6mgsBA+groGoHyG2F38QCXThuwcmC7R1XLQOSIh28viE7CJw1BpNdl11A==",
+      "path": "azure.storage.common/12.19.0",
+      "hashPath": "azure.storage.common.12.19.0.nupkg.sha512"
     },
     "BarcodeLib/3.1.0": {
       "type": "package",
@@ -3501,89 +3339,82 @@
       "path": "bitmiracle.libtiff.net/2.4.649",
       "hashPath": "bitmiracle.libtiff.net.2.4.649.nupkg.sha512"
     },
-    "Bold.Data.Analytics.Base/6.1.45": {
+    "Bold.Data.Analytics.Base/6.2.25": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nMawNhiuelZXqULlkQcijG2RHmseJWw/A241AEFfi+eva6jlXCcxOGYXXZZagEDCUIVIOjWCT4rb4y2Y7gSe0g==",
-      "path": "bold.data.analytics.base/6.1.45",
-      "hashPath": "bold.data.analytics.base.6.1.45.nupkg.sha512"
+      "sha512": "sha512-LMfRiDW6SoZVN4/swKQksMmeCwclOIRky/X9A1QWiIwE+IRL9o0ngYC6OiBcJwcJVi1nb+tx7e+z3LmMfGOMNA==",
+      "path": "bold.data.analytics.base/6.2.25",
+      "hashPath": "bold.data.analytics.base.6.2.25.nupkg.sha512"
     },
-    "Bold.Licensing/6.1.45": {
+    "Bold.Licensing/6.2.25": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ropZYWPTg3P0zEOL0uN0vUjFykTKm4F15GtGwEc314uRtQqz6pAd/NrkOc2JIkZtEuvj/j0iJJNyPO68AEC/tA==",
-      "path": "bold.licensing/6.1.45",
-      "hashPath": "bold.licensing.6.1.45.nupkg.sha512"
+      "sha512": "sha512-TOQnbgDfhrTGZzmt40jyGrrk19ha1NtT8fFVun4CDhztEHh7xWgewUXB6JUXQScVio4FpwthHfYysNMeJSVa2g==",
+      "path": "bold.licensing/6.2.25",
+      "hashPath": "bold.licensing.6.2.25.nupkg.sha512"
     },
-    "BoldReports.Base.Logger/6.1.45": {
+    "BoldReports.Base.Logger/6.2.25": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-O00wGXCAxOghiCYgaoUZ+4Zyt3X0+/ywM+Fe5Wqi/QqxN9H2oY+YWx0t59FvQRkGC/CbNo+97YaeM/+GiAtTVQ==",
-      "path": "boldreports.base.logger/6.1.45",
-      "hashPath": "boldreports.base.logger.6.1.45.nupkg.sha512"
+      "sha512": "sha512-TSJr7ywg1Gp4gtlz3ISEwTfMYSGUWs9yxBVJdhrjcKW7Bnj2eI5RG8itednmmG9mkbaCEwxB4BQrGtjBxb7+ng==",
+      "path": "boldreports.base.logger/6.2.25",
+      "hashPath": "boldreports.base.logger.6.2.25.nupkg.sha512"
     },
-    "BoldReports.CRI.Barcode/6.1.45": {
+    "BoldReports.CRI.Barcode/6.2.25": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VN7bUnvIeuM20Cd3vbreEYYN/T58ZcClWRqQYfXrz75Hjo90Ego/L+DpXgD4TC7DerxjDCgBfpNyKnJJTogHoQ==",
-      "path": "boldreports.cri.barcode/6.1.45",
-      "hashPath": "boldreports.cri.barcode.6.1.45.nupkg.sha512"
+      "sha512": "sha512-qswU2MxhmlJSOjPa86bDtcWyBuXkzMWuxKYhTKAzPskOWHAyKzWQG7euN46oUg6vQ+yFVNznbGCyLGvcv7oa4A==",
+      "path": "boldreports.cri.barcode/6.2.25",
+      "hashPath": "boldreports.cri.barcode.6.2.25.nupkg.sha512"
     },
-    "BoldReports.CRI.PredictiveAnalytics/6.1.45": {
+    "BoldReports.CRI.PredictiveAnalytics/6.2.25": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Vy1WV7GA+5uE1JyDeUfzh0YcE6acKOeikfr6WOM5mFFcuMZwhwK+bD0yw6vDsbLTsGJo/2vQwgSdADd1z/H0Fg==",
-      "path": "boldreports.cri.predictiveanalytics/6.1.45",
-      "hashPath": "boldreports.cri.predictiveanalytics.6.1.45.nupkg.sha512"
+      "sha512": "sha512-ih42oa9p8jNdWGAKjhii0NpoXOSBeUtVyWINmvkfxMqq0oZMj1EpyRS6auBmZm4XmCdgce18JC2FjcNkvINSUg==",
+      "path": "boldreports.cri.predictiveanalytics/6.2.25",
+      "hashPath": "boldreports.cri.predictiveanalytics.6.2.25.nupkg.sha512"
     },
-    "BoldReports.Data.Csv/6.1.45": {
+    "BoldReports.Data.Csv/6.2.25": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XZBx+NgLiZRxxTQuxReQPL1aY6vdUbBhGg2b2bTW/2tZwsM85MBYTdD0FtMs1qblzQcFDgaPonavg3IYgc5mBA==",
-      "path": "boldreports.data.csv/6.1.45",
-      "hashPath": "boldreports.data.csv.6.1.45.nupkg.sha512"
+      "sha512": "sha512-smgygHz87MavIJ9bCEhzxVhBbA4pOiWL6hGq4otr1Wk3W9Dz4EoRDiTtmFCBkQJlAmPU2MeenzoHDNlIfWdPLA==",
+      "path": "boldreports.data.csv/6.2.25",
+      "hashPath": "boldreports.data.csv.6.2.25.nupkg.sha512"
     },
-    "BoldReports.Data.ElasticSearch/6.1.45": {
+    "BoldReports.Data.ElasticSearch/6.2.25": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GB3IbVk6EpGqFSN3dpZVp0Pr7ZSieUBKRHUQeEY1O8LgN2nCtcIIh+Mn6g/Uttnh5eQByDccRhfZ/kTNL6Pz8w==",
-      "path": "boldreports.data.elasticsearch/6.1.45",
-      "hashPath": "boldreports.data.elasticsearch.6.1.45.nupkg.sha512"
+      "sha512": "sha512-ZtL8EqDtVUu/QqL4Lass2DN9tLTKZwJGH9SJXwUM7dia4Q1SUkgs/gd3/tTV/jL5vtWu4qCnNu2hu3ok8Y2WkQ==",
+      "path": "boldreports.data.elasticsearch/6.2.25",
+      "hashPath": "boldreports.data.elasticsearch.6.2.25.nupkg.sha512"
     },
-    "BoldReports.Data.Excel/6.1.45": {
+    "BoldReports.Data.Excel/6.2.25": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WbI9/UJaXOMdUCKJ+b9onbujDyj2S+e5L5FbYEEYsn1urYaINVBpan/V3HD38Ekr+KIFT6Oob4bEqZewWH4/dw==",
-      "path": "boldreports.data.excel/6.1.45",
-      "hashPath": "boldreports.data.excel.6.1.45.nupkg.sha512"
+      "sha512": "sha512-T1Koap9GaEmLb9Ed8J1T0IbUIPAJQsYQKa16ds9CIZewPtvfPo7ns973/yIVrT6ykgjSrAhXNIb7br2G72rDwA==",
+      "path": "boldreports.data.excel/6.2.25",
+      "hashPath": "boldreports.data.excel.6.2.25.nupkg.sha512"
     },
-    "BoldReports.Data.Snowflake/6.1.45": {
+    "BoldReports.Data.SSAS/6.2.25": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XiQEX7LK3FG4Xt1PIpFEbWmfAF2ERwRYz1y026aDVRjN1+9Se/kxiHte81vnY7xdWIXCDyT64rCSBI/e+nCACQ==",
-      "path": "boldreports.data.snowflake/6.1.45",
-      "hashPath": "boldreports.data.snowflake.6.1.45.nupkg.sha512"
+      "sha512": "sha512-rIQKu13Yu4rhmBSrvf+gzK+s3YyVCot3lVqtzk3FDd9gksYk+vCZn8rgKyxY2Idq8dkhnMPF/7MeBpdJYifRSw==",
+      "path": "boldreports.data.ssas/6.2.25",
+      "hashPath": "boldreports.data.ssas.6.2.25.nupkg.sha512"
     },
-    "BoldReports.Data.SSAS/6.1.45": {
+    "BoldReports.Data.WebData/6.2.25": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UtF3PSbDqA/TMHtBDPoNcX2xtdiWnRNzxcl8I+6ic4nlAihRQdVWjVlFDlVgK2CJl6QjxhvuEFJBN67GTACuZg==",
-      "path": "boldreports.data.ssas/6.1.45",
-      "hashPath": "boldreports.data.ssas.6.1.45.nupkg.sha512"
+      "sha512": "sha512-L2Io8OpXZIXfc9OsO/KmIY3iGz7PPsQUjWTJYWa0lSDPmjn+/weoylOJkjraqjpmOFj2Z03Ji1TOvYD2C2ONfQ==",
+      "path": "boldreports.data.webdata/6.2.25",
+      "hashPath": "boldreports.data.webdata.6.2.25.nupkg.sha512"
     },
-    "BoldReports.Data.WebData/6.1.45": {
+    "BoldReports.Net.Core/6.2.25": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OAEqB/nSJCG0f2N0bYtqno2UStlxI8AMvVRl6DjpVM40zSgYhLfjS40ibWDZ7htBMCkF949DgpnG+Lr7oJke8w==",
-      "path": "boldreports.data.webdata/6.1.45",
-      "hashPath": "boldreports.data.webdata.6.1.45.nupkg.sha512"
-    },
-    "BoldReports.Net.Core/6.1.45": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OXq19a0AVzXgN6U5fssy7cSMCI2c7kvJuwyFsxxVARCE033+2F4JMkF6EaNvCumbKnQxqxZcxcDKRkw+EYWvzw==",
-      "path": "boldreports.net.core/6.1.45",
-      "hashPath": "boldreports.net.core.6.1.45.nupkg.sha512"
+      "sha512": "sha512-HU3Wra5TGjqMSFjfObh3dgu08P26XC59fithdosM9Vz28n+RCuTaoXmNtEfPFBkZ3NTVIgdSymhmUUem5AiU3A==",
+      "path": "boldreports.net.core/6.2.25",
+      "hashPath": "boldreports.net.core.6.2.25.nupkg.sha512"
     },
     "Exceptionless/4.5.0": {
       "type": "package",
@@ -3599,55 +3430,6 @@
       "path": "exceptionless.log4net/4.5.0",
       "hashPath": "exceptionless.log4net.4.5.0.nupkg.sha512"
     },
-    "Google.Api.Gax/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-vkqxzz54dRdl3uUmz0hOhMfR9EjGrWJI+SeOl3UC1Gr/mHfHOwYiRPnJbub+77/xS0lAJBs02iOh3ay9zgzW4Q==",
-      "path": "google.api.gax/4.4.0",
-      "hashPath": "google.api.gax.4.4.0.nupkg.sha512"
-    },
-    "Google.Api.Gax.Rest/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-L4sJluVTLMy5cqFR439c2UNuWU20Wqh6yatY455rRwRlfdQlCc7Z4TdYphj2qH3cLo5NCPGQM37r/uQDLzF3eA==",
-      "path": "google.api.gax.rest/4.4.0",
-      "hashPath": "google.api.gax.rest.4.4.0.nupkg.sha512"
-    },
-    "Google.Apis/1.60.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-T8ojAsKlsMkt5nZhTQuocqHYzm/knVm8o2/JMm4louEjaKzT4x0FihoCIxCYSTRGWkYC27LPWspyG4p76+bMzA==",
-      "path": "google.apis/1.60.0",
-      "hashPath": "google.apis.1.60.0.nupkg.sha512"
-    },
-    "Google.Apis.Auth/1.60.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-AUuWniIf2muns/9hesiF7yCKeQN+PbdTU864Rb2wDzW4xmepO6tEnoqREPeow95qIAgkOlL/byKeU65d3ox5Ng==",
-      "path": "google.apis.auth/1.60.0",
-      "hashPath": "google.apis.auth.1.60.0.nupkg.sha512"
-    },
-    "Google.Apis.Core/1.60.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NOkjqMQblYEZXt2OEgshWayveYW11Pi+Uz0I30Kzl9BvL4TZLJzMqtiu1EdV8XkyyjGuAUgANdi4BOqRDlbVEw==",
-      "path": "google.apis.core/1.60.0",
-      "hashPath": "google.apis.core.1.60.0.nupkg.sha512"
-    },
-    "Google.Apis.Storage.v1/1.60.0.2981": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-YcUvDcg0hV5hAFPYwLwg15pmObxjJEhH/9mkiNxpQ/vYfwPfIH/s2PeIEzdnDkQlE4kPyoJdA9cIYIXnC1s5Qg==",
-      "path": "google.apis.storage.v1/1.60.0.2981",
-      "hashPath": "google.apis.storage.v1.1.60.0.2981.nupkg.sha512"
-    },
-    "Google.Cloud.Storage.V1/4.6.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pNV9H+LElfumLs7k8GDf8vltQ+fpq59oklCncBu5FPTzmwNGryT3VMaTU8+xV3VnWN44vNyPYz1tiOiF0F/5Xw==",
-      "path": "google.cloud.storage.v1/4.6.0",
-      "hashPath": "google.cloud.storage.v1.4.6.0.nupkg.sha512"
-    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -3655,12 +3437,12 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
-    "log4net/2.0.12": {
+    "log4net/2.0.17": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9P67BCftJ7KG+B7rNOM1A9KczUwyEDed6zbAddy5Cj/73xVkzi+rEAHeOgUnW5wDqy1JFlY8+oTP0m1PgJ03Tg==",
-      "path": "log4net/2.0.12",
-      "hashPath": "log4net.2.0.12.nupkg.sha512"
+      "sha512": "sha512-qnnDf/ubJzwm2i1xH7nRMjEDoD+ctse7nZDqb+p7L1PvZc6ykpMoEesWr1/9hFqlsbII2v9e8yyQHJhoDQh7ZA==",
+      "path": "log4net/2.0.17",
+      "hashPath": "log4net.2.0.17.nupkg.sha512"
     },
     "Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64/19.22.0.1": {
       "type": "package",
@@ -4194,12 +3976,12 @@
       "path": "microsoft.extensions.dependencyinjection/2.2.0",
       "hashPath": "microsoft.extensions.dependencyinjection.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+      "sha512": "sha512-f9hstgjVmr6rmrfGSpfsVOl2irKAgr1QjrSi3FgnS7kulxband50f2brRLwySAQTADPZeTdow0mpSMcoAdadCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyModel/2.1.0": {
       "type": "package",
@@ -4453,13 +4235,6 @@
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
     },
-    "Portable.BouncyCastle/1.8.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-XLhjNAwuVB9ynwn11l5K44eyozh8q6gFseTrlnLNttejimglX7+F9+vxh60LPjvA/DAt6fUdS43N3ah8K6eaWg==",
-      "path": "portable.bouncycastle/1.8.10",
-      "hashPath": "portable.bouncycastle.1.8.10.nupkg.sha512"
-    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -4691,13 +4466,6 @@
       "path": "skiasharp.svg/1.60.0",
       "hashPath": "skiasharp.svg.1.60.0.nupkg.sha512"
     },
-    "Snowflake.Data/2.1.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-5sjtLUr5bqbPMDLxypLaAxV/lCPWJNeQbqCu+t/RXAgLA3qV5p62FZX6+7ceDadFk49x0+zZOeqrT+R9+b9cew==",
-      "path": "snowflake.data/2.1.5",
-      "hashPath": "snowflake.data.2.1.5.nupkg.sha512"
-    },
     "SSH.NET/2020.0.2": {
       "type": "package",
       "serviceable": true,
@@ -4712,54 +4480,54 @@
       "path": "sshnet.security.cryptography/1.3.0",
       "hashPath": "sshnet.security.cryptography.1.3.0.nupkg.sha512"
     },
-    "Syncfusion.Compression.Net.Core/22.1.34": {
+    "Syncfusion.Compression.Net.Core/26.1.35": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6jCisV+WHSMxXRyB6jehTLB4GP+P3iCicRYwT86ypcEH+9foIGjOgBvr2Fkg0KkTeKBkmBeBheB50XnAytFobg==",
-      "path": "syncfusion.compression.net.core/22.1.34",
-      "hashPath": "syncfusion.compression.net.core.22.1.34.nupkg.sha512"
+      "sha512": "sha512-ULVmApIZUDthh5jbAjdDPO7OvHfiC5es+OsLL1QQ+Fk1WfDQQxwOgo7pOFe5SQVz+9/AdVAuMIwZSNa1bD9Ksg==",
+      "path": "syncfusion.compression.net.core/26.1.35",
+      "hashPath": "syncfusion.compression.net.core.26.1.35.nupkg.sha512"
     },
-    "Syncfusion.DocIO.Net.Core/22.1.34": {
+    "Syncfusion.DocIO.Net.Core/26.1.35": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QPe2TyJHMmNVMU+VBjcJWGgAAif+c56tSbrlvdHu1D6Sw4d6mlQY6/KQ7rWGL8jJic9B0ym8tcwNOBSX6RNbaA==",
-      "path": "syncfusion.docio.net.core/22.1.34",
-      "hashPath": "syncfusion.docio.net.core.22.1.34.nupkg.sha512"
+      "sha512": "sha512-SOtVARxTyLu1oUjmJS6i+QpV5LNkZ899tjhNOpHsMboTafYi3+7RCdQyA0IDpavXoRU8G3EyS+RcxTjD56FsiQ==",
+      "path": "syncfusion.docio.net.core/26.1.35",
+      "hashPath": "syncfusion.docio.net.core.26.1.35.nupkg.sha512"
     },
-    "Syncfusion.Licensing/22.1.34": {
+    "Syncfusion.Licensing/26.1.35": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jsvGrJgBc2KUMhUbLc1QPTqZkSHEZsUiPOcmu6DDvhYIV9cv1z83gohwHfmtFaRfBVezW7Dhn1qehHSOPIMo/w==",
-      "path": "syncfusion.licensing/22.1.34",
-      "hashPath": "syncfusion.licensing.22.1.34.nupkg.sha512"
+      "sha512": "sha512-DPMS7ODbzaS+S2//uOMW8XL/08AEIMz/TEb113gaXdwga328ozz+4wiQGZBJzjLGglyO1vV+GTUigquDGHWcFg==",
+      "path": "syncfusion.licensing/26.1.35",
+      "hashPath": "syncfusion.licensing.26.1.35.nupkg.sha512"
     },
-    "Syncfusion.OfficeChart.Net.Core/22.1.34": {
+    "Syncfusion.OfficeChart.Net.Core/26.1.35": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jO+9Fjm65ctlJNtOJs2BmXH2240qI3uJfQfTmnz+H2OZ3kf1ljknz2XqKNxFuIZ2F0H8vCZNcWDYtlYw+d4pHA==",
-      "path": "syncfusion.officechart.net.core/22.1.34",
-      "hashPath": "syncfusion.officechart.net.core.22.1.34.nupkg.sha512"
+      "sha512": "sha512-M8rLhvfpvG4t+v1kGWv+TtPkmGWzRdJHvXFqSCOss5zlPP+Mo2jMRX7yGFtsfJMCgOjHLdr1BQP8UI94htoKGg==",
+      "path": "syncfusion.officechart.net.core/26.1.35",
+      "hashPath": "syncfusion.officechart.net.core.26.1.35.nupkg.sha512"
     },
-    "Syncfusion.Pdf.Imaging.Net.Core/22.1.34": {
+    "Syncfusion.Pdf.Imaging.Net.Core/26.1.35": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zZo5wShOedq40Zp88niIHb91KnNVaQaA+O3H2QDdN5rqEag9gZTXVlJX+5yNQRsAsU8CckOFb+lqRfIEBraM9w==",
-      "path": "syncfusion.pdf.imaging.net.core/22.1.34",
-      "hashPath": "syncfusion.pdf.imaging.net.core.22.1.34.nupkg.sha512"
+      "sha512": "sha512-M4Ltbw/p/77/FjRJQ1O1VZvX4kp8QSDYIqDz9jhy/P4eRIl+Di1Kh1L558vjLRJbIShIKZAvjFUzs6MLkaJtAQ==",
+      "path": "syncfusion.pdf.imaging.net.core/26.1.35",
+      "hashPath": "syncfusion.pdf.imaging.net.core.26.1.35.nupkg.sha512"
     },
-    "Syncfusion.Pdf.Net.Core/22.1.34": {
+    "Syncfusion.Pdf.Net.Core/26.1.35": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gAmpjuNdnP1KmZlvo24V7ugMhRElGLxQeFlTpdB7ybPIBfOH4dekXgxIat0ZyzvhlyasKzhXPpl6/4Fr8/+3xA==",
-      "path": "syncfusion.pdf.net.core/22.1.34",
-      "hashPath": "syncfusion.pdf.net.core.22.1.34.nupkg.sha512"
+      "sha512": "sha512-s8gT52vdI/yrcNkW2ucqoUVHUTwTkr/PvxAxWNKzx33I2FbZoJ9FIBS2z1wLMY5otRfEWu6O52zFtIQwB+U6Eg==",
+      "path": "syncfusion.pdf.net.core/26.1.35",
+      "hashPath": "syncfusion.pdf.net.core.26.1.35.nupkg.sha512"
     },
-    "Syncfusion.Presentation.Net.Core/22.1.34": {
+    "Syncfusion.Presentation.Net.Core/26.1.35": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kBWDxoknFKCPpbxR1jNW7cwjDZY721v2w3amzLH5KouN6nxhdfQqKoFodHw+TBCIg1YiDeOv5A0/Dx4eXcmaQg==",
-      "path": "syncfusion.presentation.net.core/22.1.34",
-      "hashPath": "syncfusion.presentation.net.core.22.1.34.nupkg.sha512"
+      "sha512": "sha512-BXmz+LHcYWj0V4ozMRRdzvpPei0p4IHuyKFmLaKIXguQW9fV6s+K9Pq9cDsfuQodCGCTxHpV0zfKqbk4b7D3xA==",
+      "path": "syncfusion.presentation.net.core/26.1.35",
+      "hashPath": "syncfusion.presentation.net.core.26.1.35.nupkg.sha512"
     },
     "Syncfusion.Server.Base.Encryption.Core/3.1.0.2": {
       "type": "package",
@@ -4768,12 +4536,12 @@
       "path": "syncfusion.server.base.encryption.core/3.1.0.2",
       "hashPath": "syncfusion.server.base.encryption.core.3.1.0.2.nupkg.sha512"
     },
-    "Syncfusion.XlsIO.Net.Core/22.1.34": {
+    "Syncfusion.XlsIO.Net.Core/26.1.35": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sZCHxFbyReWnzTi9CGrPffpBS6exzQTxZz9pLXvIL6oOUfNUIAmzLrPev6+BHdUudvHdfThruSUAj3kYMmUcKQ==",
-      "path": "syncfusion.xlsio.net.core/22.1.34",
-      "hashPath": "syncfusion.xlsio.net.core.22.1.34.nupkg.sha512"
+      "sha512": "sha512-oeQF2qcNjUnC0aJYHQF73tPW8Iuk/FcHrPTaWCyQjNnvBrWRTh+n6dGxM0dXaa1bp3ZPBanzg9/qMreZbbLFZA==",
+      "path": "syncfusion.xlsio.net.core/26.1.35",
+      "hashPath": "syncfusion.xlsio.net.core.26.1.35.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",
@@ -4788,6 +4556,13 @@
       "sha512": "sha512-pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
       "path": "system.buffers/4.5.0",
       "hashPath": "system.buffers.4.5.0.nupkg.sha512"
+    },
+    "System.ClientModel/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
+      "path": "system.clientmodel/1.0.0",
+      "hashPath": "system.clientmodel.1.0.0.nupkg.sha512"
     },
     "System.CodeDom/6.0.0": {
       "type": "package",
@@ -5496,12 +5271,12 @@
       "path": "system.text.json/7.0.3",
       "hashPath": "system.text.json.7.0.3.nupkg.sha512"
     },
-    "System.Text.RegularExpressions/4.3.1": {
+    "System.Text.RegularExpressions/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-N0kNRrWe4+nXOWlpLT4LAY5brb8caNFlUuIRpraCVMDLYutKkol1aV079rQjLuSxKMJT2SpBQsYX9xbcTMmzwg==",
-      "path": "system.text.regularexpressions/4.3.1",
-      "hashPath": "system.text.regularexpressions.4.3.1.nupkg.sha512"
+      "sha512": "sha512-RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
+      "path": "system.text.regularexpressions/4.3.0",
+      "hashPath": "system.text.regularexpressions.4.3.0.nupkg.sha512"
     },
     "System.Threading/4.3.0": {
       "type": "package",

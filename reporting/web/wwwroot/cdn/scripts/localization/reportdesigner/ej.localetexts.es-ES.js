@@ -468,6 +468,7 @@ ej.ReportDesigner.Locale['es-ES'] = {
         create: 'Crear',
         cancel: 'Cancelar',
         close: 'Cerrar',
+        errorMessage: 'Especifique el nombre del archivo del informe'
     },
     reportAction: {
         linkTo: 'Vincular a',
@@ -1404,6 +1405,7 @@ ej.ReportDesigner.Locale['es-ES'] = {
         },
         commonCategory: {
             placementCategory: {
+                placement: 'Ubicación',
                 inside: 'Adentro',
                 outside: 'Afuera',
                 cross: 'Cruzado'
@@ -1875,6 +1877,19 @@ ej.ReportDesigner.Locale['es-ES'] = {
                 alertConnectionString: 'Especificar cadena de conexión',
             }
         },
+        sshSettings: {
+            enable: 'Habilitar SSH',
+            serverName: 'Nombre del servidor SSH',
+            port: 'Puerto SSH',
+            userName: 'Nombre de usuario SSH',
+            password: 'Contraseña SSH',
+            alertMessage: {
+                serverName: 'Especifique el nombre del servidor SSH',
+                port: 'Especifique el número de puerto SSH',
+                userName: 'Especifique el nombre de usuario SSH',
+                password: 'Especifique la contraseña SSH'
+            }
+        },
         sqlDatasource: {
             authenticationType: 'Tipo de autenticación',
             window: 'Windows',
@@ -1889,7 +1904,7 @@ ej.ReportDesigner.Locale['es-ES'] = {
                 database: 'Base de datos',
                 advanceSwitch: 'Opciones avanzadas',
                 encrypt: 'encriptar',
-                trustserver: 'Certificado de Servidor de Confianza'
+                trustServer: 'Certificado de Servidor de Confianza'
             },
             advanceOption: {
                 connectionString: 'Cadena de conexión',

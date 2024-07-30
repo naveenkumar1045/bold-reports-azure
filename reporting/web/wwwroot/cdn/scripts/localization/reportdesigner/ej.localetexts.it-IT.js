@@ -346,7 +346,7 @@ ej.ReportDesigner.Locale['it-IT'] = {
                 groupName: 'Regioni dati',
                 Items: {
                     'tablix': {
-                        displayText: 'Table',
+                        displayText: 'Tavolo',
                         tooltip: {
                             requirements: '1 o più righe / colonne.',
                             description: 'Visualizza i dati del report impaginati nelle celle.',
@@ -388,11 +388,11 @@ ej.ReportDesigner.Locale['it-IT'] = {
                 groupName: 'Rapporti secondari',
                 Items: {
                     'subreport': {
-                        displayText: 'SubReport',
+                        displayText: 'Sottoreport',
                         tooltip: {
                             requirements: 'Visualizza / Incorpora il rapporto nel rapporto principale.',
                             description: 'Visualizza un altro report nel corpo del report principale.',
-                            title: 'SubReport'
+                            title: 'Sottoreport'
                         }
                     }
                 }
@@ -468,6 +468,7 @@ ej.ReportDesigner.Locale['it-IT'] = {
         create: 'Creare',
         cancel: 'Annulla',
         close: 'Vicina',
+        errorMessage: 'Specificare il nome del file del rapporto'
     },
     reportAction: {
         linkTo: 'Collegamento a',
@@ -1404,6 +1405,7 @@ ej.ReportDesigner.Locale['it-IT'] = {
         },
         commonCategory: {
             placementCategory: {
+                placement: 'Posizionamento',
                 inside: 'Dentro',
                 outside: 'Al di fuori',
                 cross: 'Attraversare'
@@ -1875,6 +1877,19 @@ ej.ReportDesigner.Locale['it-IT'] = {
                 alertPrompt: 'Specificare il testo del prompt'
             }
         },
+        sshSettings: {
+            enable: 'Abilita SSH',
+            serverName: 'Nome del server SSH',
+            port: 'Porta SSH',
+            userName: 'Nome utente SSH',
+            password: 'Password SSH',
+            alertMessage: {
+                serverName: 'Specifica il nome del server SSH',
+                port: 'Specificare il numero della porta SSH',
+                userName: 'Specifica il nome utente SSH',
+                password: 'Specifica la password SSH'
+            }
+        },
         sqlDatasource: {
             authenticationType: 'Tipo di autenticazione',
             window: 'finestre',
@@ -1889,7 +1904,7 @@ ej.ReportDesigner.Locale['it-IT'] = {
                 database: 'Banca dati',
                 advanceSwitch: 'Opzioni avanzate',
                 encrypt: 'crittografare',
-                trustserver: 'Certificato del Server Affidabile'
+                trustServer: 'Certificato del Server Affidabile'
             },
             advanceOption: {
                 connectionString: 'Stringa di connessione',

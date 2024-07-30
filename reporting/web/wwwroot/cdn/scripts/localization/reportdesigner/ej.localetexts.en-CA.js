@@ -468,6 +468,7 @@ ej.ReportDesigner.Locale['en-CA'] = {
         create: 'Create',
         cancel: 'Cancel',
         close: 'Close',
+        errorMessage: 'Specify the report file name'
     },
     reportAction: {
         linkTo: 'Link To',
@@ -1399,6 +1400,7 @@ ej.ReportDesigner.Locale['en-CA'] = {
         },
         commonCategory: {
             placementCategory: {
+                placement: 'Placement',
                 inside: 'Inside',
                 outside: 'Outside',
                 cross: 'Cross'
@@ -1870,6 +1872,19 @@ ej.ReportDesigner.Locale['en-CA'] = {
                 alertConnectionString: 'Specify the Connection string',
             }
         },
+        sshSettings: {
+            enable: 'Enable SSH',
+            serverName: 'SSH Server Name',
+            port: 'SSH Port',
+            userName: 'SSH Username',
+            password: 'SSH Password',
+            alertMessage: {
+                serverName: 'Specify the SSH Server Name',
+                port: 'Specify the SSH port number',
+                userName: 'Specify the SSH User Name',
+                password: 'Specify the SSH Password'
+            }
+        },
         sqlDatasource: {
             authenticationType: 'Authentication Type',
             window: 'Windows',
@@ -1884,7 +1899,7 @@ ej.ReportDesigner.Locale['en-CA'] = {
                 database: 'Database',
                 advanceSwitch: 'Advanced Options',
                 encrypt: 'Encrypt',
-                trustserver: 'Trust Server Certificate'
+                trustServer: 'Trust Server Certificate'
             },
             advanceOption: {
                 connectionString: 'Connection String',

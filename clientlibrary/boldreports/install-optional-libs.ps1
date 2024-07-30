@@ -19,12 +19,22 @@ $jsonfiles="$apijson$jobsjson$webjson$viewerjson$servicejson"
 $mysqlassemblies=""
 $postgresqlassemblies=""
 $oracleassemblies=""
+$snowflakeassemblies=""
 $Clientcollection = $ClientLibraries.Split(",")
 try {
 Foreach ($name in $Clientcollection)
 {
 Switch ($name)
 {
+"snowflake"{
+$snowflakeassemblies="${name}=BoldReports.Data.Snowflake;"
+Foreach ($dirname in $pluginDirectories)
+{
+$destination="$rootPath/$dirname"
+Copy-Item -Path $clientlibraryextractpath/BoldReports.Data.Snowflake.dll -Destination $destination
+Copy-Item -Path $clientlibraryextractpath/Snowflake.Data.dll -Destination $destination
+}
+echo "snowflake libraries are installed"
 "mysql"{
 $mysqlassemblies="${name}=BoldReports.Data.MySQL;MemSQL;MariaDB;"
 Foreach ($dirname in $pluginDirectories)
@@ -58,7 +68,7 @@ echo "postgresql libraries are installed"
 }
 }
 
-$clientLibraries="$mysqlassemblies$oracleassemblies$postgresqlassemblies"
+$clientLibraries="$mysqlassemblies$oracleassemblies$postgresqlassemblies$snowflakeassemblies"
 dotnet clientlibraryutility/ClientLibraryUtil.dll $clientLibraries $jsonfiles
 echo "client libraries are updated"
 }

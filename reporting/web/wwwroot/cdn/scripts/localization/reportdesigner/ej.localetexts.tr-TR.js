@@ -65,11 +65,11 @@ ej.ReportDesigner.Locale['tr-TR'] = {
                         }
                     },
                     'bar': {
-                        displayText: 'Bar',
+                        displayText: 'çubuk',
                         tooltip: {
                             requirements: '1 veya daha fazla değer ve 1 veya daha fazla sütun.',
                             description: 'Dikey olarak düzenlenmiş yatay çubukları kullanarak çeşitli kategorilerdeki bir dizi sırasız öğenin değerlerini karşılaştırır.',
-                            title: 'Bar'
+                            title: 'çubuk'
                         }
                     },
                     'stackedColumn': {
@@ -309,11 +309,11 @@ ej.ReportDesigner.Locale['tr-TR'] = {
                         }
                     },
                     'polar': {
-                        displayText: 'Polar',
+                        displayText: 'Kutup',
                         tooltip: {
                             requirements: '1 veya daha fazla değer ve 1 veya daha fazla sütun.',
                             description: 'Bir seriyi, 360 derecelik bir daire üzerinde kategoriye göre gruplandırılmış bir dizi nokta olarak görüntüler.',
-                            title: 'Polar'
+                            title: 'Kutup'
                         }
                     },
                     'radar': {
@@ -468,6 +468,7 @@ ej.ReportDesigner.Locale['tr-TR'] = {
         create: 'Oluşturmak',
         cancel: 'İptal etmek',
         close: 'Kapat',
+        errorMessage: 'Rapor dosyası adını belirtin'
     },
     reportAction: {
         linkTo: 'Bağlamak',
@@ -705,7 +706,7 @@ ej.ReportDesigner.Locale['tr-TR'] = {
                 column: 'Sütun',
                 stackedColumn: 'Yığılmış Sütun',
                 stackedColumnPercent: 'Yığılmış Sütun% 100',
-                bar: 'Bar',
+                bar: 'çubuk',
                 stackedBar: 'Yığılmış Çubuk',
                 stackedBarPercent: 'Yığılmış Çubuk% 100',
                 pie: 'Turta',
@@ -724,7 +725,7 @@ ej.ReportDesigner.Locale['tr-TR'] = {
                 smoothLineWithMarkers: 'Düzgün Çizgi With Markers',
                 scatter: 'Dağılım',
                 bubble: 'Kabarcık',
-                polar: 'Polar',
+                polar: 'Kutup',
                 radar: 'Radar',
                 rangeArea: 'Menzil Alanı',
                 rangeColumn: 'Aralık Sütunu',
@@ -1294,7 +1295,7 @@ ej.ReportDesigner.Locale['tr-TR'] = {
                 pointerType: 'Tür',
                 pointerTypes: {
                     marker: 'İşaretleyici',
-                    bar: 'Bar'
+                    bar: 'çubuk'
                 },
                 pointerWidth: 'Genişlik',
                 pointerColor: 'Renk',
@@ -1374,7 +1375,7 @@ ej.ReportDesigner.Locale['tr-TR'] = {
                 pointerType: 'Tür',
                 pointerTypes: {
                     needle: 'İğne',
-                    bar: 'Bar',
+                    bar: 'çubuk',
                     marker: 'İşaretleyici'
                 },
                 pointerWidth: 'Genişlik',
@@ -1404,6 +1405,7 @@ ej.ReportDesigner.Locale['tr-TR'] = {
         },
         commonCategory: {
             placementCategory: {
+                placement: 'Yerleştirme',
                 inside: 'İçeride',
                 outside: 'Dışarıda',
                 cross: 'Çapraz'
@@ -1875,6 +1877,19 @@ ej.ReportDesigner.Locale['tr-TR'] = {
                 alertPrompt: 'İstem Metnini Belirtin'
             }
         },
+        sshSettings: {
+            enable: 'SSH\'yi etkinleştir',
+            serverName: 'SSH Sunucu adı',
+            port: 'SSH Bağlantı Noktası',
+            userName: 'SSH Kullanıcı adı',
+            password: 'SSH Şifresi',
+            alertMessage: {
+                serverName: 'SSH Sunucu Adını Belirtin',
+                port: 'SSH bağlantı noktası numarasını belirtin',
+                userName: 'SSH Kullanıcı Adını Belirleyin',
+                password: 'SSH Şifresini Belirleyin'
+            }
+        },
         sqlDatasource: {
             authenticationType: 'Kimlik Doğrulama Türü',
             window: 'pencereler',
@@ -1889,7 +1904,7 @@ ej.ReportDesigner.Locale['tr-TR'] = {
                 database: 'Veri tabanı',
                 advanceSwitch: 'Gelişmiş seçenekler',
                 encrypt: 'şifrelemek',
-                trustserver: 'Sunucu Sertifikasına Güven'
+                trustServer: 'Sunucu Sertifikasına Güven'
             },
             advanceOption: {
                 connectionString: 'Bağlantı dizisi',
