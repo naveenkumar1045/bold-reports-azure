@@ -7,9 +7,6 @@
     var reportServerResourceUrl = globalAppSettings.SystemSettings.CDNLink.TrimEnd('/');
     var usersettings = Url.Action("administration", "administration") + "/user-settings";
 }
-<script nonce="@Context.Items["ScriptNonce"]">
-    var importDatabaseQuerySchema = {};
-</script>
 
 @section scripts{
     <environment include="Development,CloudDevelopment">

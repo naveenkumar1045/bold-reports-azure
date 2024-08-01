@@ -9,7 +9,7 @@ Oracle.ManagedDataAccess - Oracle License [https://www.oracle.com/downloads/lice
 Oracle
 Amazon RDS
 ---
-Npgsql 7.0.1 - PostgreSQL License [https://github.com/npgsql/npgsql/blob/main/LICENSE]
+Npgsql 8.0.3 - PostgreSQL License [https://github.com/npgsql/npgsql/blob/main/LICENSE]
 PostgreSQL
 Google Cloud
 Amazon Aurora

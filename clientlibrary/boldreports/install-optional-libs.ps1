@@ -33,8 +33,10 @@ Foreach ($dirname in $pluginDirectories)
 $destination="$rootPath/$dirname"
 Copy-Item -Path $clientlibraryextractpath/BoldReports.Data.Snowflake.dll -Destination $destination
 Copy-Item -Path $clientlibraryextractpath/Snowflake.Data.dll -Destination $destination
+Copy-Item -Path $clientlibraryextractpath/Mono.Unix.dll -Destination $destination
 }
 echo "snowflake libraries are installed"
+}
 "mysql"{
 $mysqlassemblies="${name}=BoldReports.Data.MySQL;MemSQL;MariaDB;"
 Foreach ($dirname in $pluginDirectories)
